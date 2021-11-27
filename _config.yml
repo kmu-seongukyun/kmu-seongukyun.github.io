@@ -1,4 +1,4 @@
-title: Long Haul
+title: SMILE
 description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
 url: http://long-haul.netlify.app
@@ -22,11 +22,8 @@ navigation:
     url: /contact
 
 social:
-  github: brianmaierjr
-  twitter: brianmaierjr
-  facebook: brianmaierjr
-  email: brimaidesigns@gmail.com
-  linkedin: brianmaierjr
+  github: kmu-seongukyun
+  email: seonugk3553@kookmin.ac.kr
 
 google_analytics: "UA-58263416-1"
 
