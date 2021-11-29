@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Example Post Formatting"
-date:   2014-12-15
+title:  "Github Pages"
+date:   2021-11-30
 description: This is a post description for meta purposes. This is also the excerpt of the article that shows up on the index/home page. Change this in the post YAML.
 ---
 
