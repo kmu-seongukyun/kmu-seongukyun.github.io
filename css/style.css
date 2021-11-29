@@ -974,7 +974,7 @@ FOOTER STYLING
           .footer-links ul li a svg .inner-shape {
             fill: white; }
       .footer-links ul li:hover a svg .outer-shape {
-        fill: #21653f; }
+        fill: pink; }
 
 /***************
 PAGINATION STYLING
