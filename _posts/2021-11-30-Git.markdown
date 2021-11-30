@@ -8,10 +8,10 @@ date:   2021-11-30
 <img src="/assets/img/git.png"><img>
 <p>버전관리의 알파이자 오메가</p>
 
-Git은 버전 관리 시스템(VCS, Version Control System)중 하나이다.
+Git은 버전 관리 시스템(VCS, Version Control System)중 하나이다.<br>
 더 정확하게 이야기하면 Git은 분산 버전 관리 시스템(DVCS, Distributed Version Control System)의 한 종류이다. 이것은 소스코드 등 파일의 변화를 관리하기 쉽게 해준다.
 
-분산 버전관리 시스템?
+분산 버전관리 시스템?<br>
 분산 버전 관리 시스템 (DVCS, Distributed Version Control Systems)은 서버에 문제가 생기더라도 복사본의 데이터를 이용하여 다시 작업을 시작할 수 있다. 또한 대부분의 DVCS 환경에는 리모트 저장소가 존재한다. 사람들은 이 저장소를 이용하여 다양한 방법으로 협업을 할 수 있다.
 <img src="/assets/Distributed-Version-Control-System.png"><img>
 
