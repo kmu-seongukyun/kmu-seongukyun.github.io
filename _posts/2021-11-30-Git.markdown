@@ -28,7 +28,7 @@ user $ git init
 
 ## Git 저장소에서 파일의 상태<br>
 #### Local과 Remote
-<img src="/assets/img/local_remote.png"><img>
+<img src="/assets/img/local_remote.PNG"><img>
 
 git <명령어>를 통해서 git을 관리
 <br>
