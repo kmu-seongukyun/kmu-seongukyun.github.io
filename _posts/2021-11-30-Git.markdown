@@ -13,7 +13,7 @@ Git은 버전 관리 시스템(VCS, Version Control System)중 하나이다.<br>
 
 분산 버전관리 시스템?<br>
 분산 버전 관리 시스템 (DVCS, Distributed Version Control Systems)은 서버에 문제가 생기더라도 복사본의 데이터를 이용하여 다시 작업을 시작할 수 있다. 또한 대부분의 DVCS 환경에는 리모트 저장소가 존재한다. 사람들은 이 저장소를 이용하여 다양한 방법으로 협업을 할 수 있다.
-<img src="/assets//img/distributed_version_control_system.png"><img>
+<img src="/assets/img/distributed_version_control_system.png"><img>
 
 ### Git 로컬 저장소 생성
 {%- highlight ruby -%}
@@ -25,7 +25,7 @@ user $ git init
 ## Git 저장소에서 파일의 상태
 
 #### Local과 Remote
-<imgg src="/assets/img/local_remote.png"><img>
+<img src="/assets/img/local_remote.png"><img>
 
 git <명령어>를 통해서 git을 관리
 
