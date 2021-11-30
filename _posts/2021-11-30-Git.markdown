@@ -5,16 +5,17 @@ date:   2021-11-30
 ---
 
 ## Git 
-Git이 무엇일까요?
+<img src="git.png"><img>
+<p>버전관리의 알파이자 오메가</p>
 
-버전관리의 알파이자 오메가
+Git은 버전 관리 시스템(VCS, Version Control System)중 하나이다.
+더 정확하게 이야기하면 Git은 분산 버전 관리 시스템(DVCS, Distributed Version Control System)의 한 종류이다. 이것은 소스코드 등 파일의 변화를 관리하기 쉽게 해준다.
 
-여러 사람이 한 번에 코드를 관리 하려면 어떻게 해야할까요?
+분산 버전관리 시스템?
+분산 버전 관리 시스템 (DVCS, Distributed Version Control Systems)은 서버에 문제가 생기더라도 복사본의 데이터를 이용하여 다시 작업을 시작할 수 있다. 또한 대부분의 DVCS 환경에는 리모트 저장소가 존재한다. 사람들은 이 저장소를 이용하여 다양한 방법으로 협업을 할 수 있다.
+<img src="Distributed-Version-Control-System"><img>
 
-분산 버전관리 시스템
-
-Git 로컬 저장소 생성
-
+### Git 로컬 저장소 생성
 {%- highlight ruby -%}
 user $ git init
 {%- endhighlight -%}
@@ -22,34 +23,37 @@ user $ git init
 현재 작업중인 디렉토리를 git 로컬 저장소로 지정
 
 ## Git 저장소에서 파일의 상태
-Local과 Remote
+#### Local과 Remote
+<imgg src="Local Remote"><img>
 
-git <명령어> 를 통해서 git을 관리
+git <명령어>를 통해서 git을 관리
 
 ## Git의 저장단위, Commit
-Git에 변경사항 반영하기
+### Git에 변경사항 반영하기
 
-### 1. 현재 Git 상태 확인
+#### 1. 현재 Git 상태 확인
 {%- highlight ruby -%}
 user $ git status
 ----
 On branch main
 Untracked files:
-    (use "git add <file>..." to include in what will be c)
+    (use "git add <file>..." to include in what will be committed)
+    example.py
 {%- endhighlight -%}
 
-### 2. example.py를 생성(혹은 수정)하고, 이를 Commit에 반영하고 싶은 경우
+#### 2. example.py를 생성(혹은 수정)하고, 이를 Commit에 반영하고 싶은 경우
 {%- highlight ruby -%}
 user $ git add example.py
 {%- endhighlight -%}
 
-### 3. 변경사항이 반영된 new commit 생성
+#### 3. 변경사항이 반영된 new commit 생성
 {%- highlight ruby -%}
 user $ git commit -m "add example.py"
 {%- endhighlight -%}
 
-### 4. commit 기록 확인하기(Author, Commitor, Date, ...)
+#### 4. commit 기록 확인하기(Author, Commitor, Date, ...)
 {%- highlight ruby -%}
 user $ git log
 {%- endhighlight -%}
+
 
