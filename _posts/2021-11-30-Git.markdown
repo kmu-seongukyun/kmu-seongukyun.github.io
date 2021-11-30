@@ -4,11 +4,10 @@ title:  "Git"
 date:   2021-11-30
 ---
 
-
-<p class="intro">Git <br> 버전관리의 알파이자 오메가</p>
-
 ## Git 
 Git이 무엇일까요?
+
+버전관리의 알파이자 오메가
 
 여러 사람이 한 번에 코드를 관리 하려면 어떻게 해야할까요?
 
@@ -25,13 +24,12 @@ user $ git init
 ## Git 저장소에서 파일의 상태
 Local과 Remote
 
-<img>><src></img>
-
 git <명령어> 를 통해서 git을 관리
 
 ## Git의 저장단위, Commit
 Git에 변경사항 반영하기
 
+### 1. 현재 Git 상태 확인
 {%- highlight ruby -%}
 user $ git status
 ----
@@ -39,19 +37,19 @@ On branch main
 Untracked files:
     (use "git add <file>..." to include in what will be c)
 {%- endhighlight -%}
-변경사항이 반영된 new commit 생성
 
+### 2. example.py를 생성(혹은 수정)하고, 이를 Commit에 반영하고 싶은 경우
 {%- highlight ruby -%}
 user $ git add example.py
 {%- endhighlight -%}
-example.py를 생서(혹은 수정)하고, 이를 Commit에 반영하고 싶은 경우
 
+### 3. 변경사항이 반영된 new commit 생성
 {%- highlight ruby -%}
 user $ git commit -m "add example.py"
 {%- endhighlight -%}
-변경사항이 반영된 new commit 생성
 
+### 4. commit 기록 확인하기(Author, Commitor, Date, ...)
 {%- highlight ruby -%}
 user $ git log
 {%- endhighlight -%}
-cpmmit 기록 확인하기(Author, Commitor, Date, ...)
+
