@@ -4,27 +4,17 @@ title:  "Github"
 date:   2021-11-30
 ---
 
+## Github 
+<p>전 세계 사람들과 버전관리?</p>
 
-<p class="intro"><span class="dropcap">L</span>orem ipsum thor smash liege-bastogne-liege landbouwkrediet ombregt krabbe, rouleur derby is for lovers bonk giro gilbert bidon. Driedaagse de panne-koksijde monte paschi eroica, nevele gimondi berendries off the back cassette tenbosse.</p>
+GitHub는 분산 버전 컨트롤(Distributed Version Control System, DVCS) 소프트웨어 Git을 기반으로 파일을 호스팅 하고 다양한 협업 기능을 지원하는 마이크소프트의 웹서비스이다.
 
-Bahamontes lanterne rouge normandie belgium. Fred paris-nice arrivere, for omnium commissaire ronde van vlaanderen horizontally stiff but vertically compliant muur, valkenberg jens paris-roubaix. Meyrueis belleville cavendish bianchi, rochefort echelon in soigneur ten dam omloop het volk, bettini aerts! Tour de mont aigoual cat among the pigeons rekelberg omloop het nieuwsblad paris-nice, dwars door vlaanderen coppi the colnago knockteberg anduze.
+## Github
+### Local 저장소를 넘어 Remote 저장소로!
 
-<figure>
-	<img src="/assets/img/touring.jpg" alt=""> 
-	<figcaption>Fig1. - This is an example figcaption</figcaption>
-</figure>
+<img src="/assets/img/github.png"><img>
+원격 저장소 중 대표적인 Github
 
-{%- highlight html -%}
-<figure>
-	<img src="/assets/img/touring.jpg" alt=""> 
-	<figcaption>Fig1. - This is an example figcaption</figcaption>
-</figure>
-{%- endhighlight -%}
 
-Kaperij lanterne rouge musette rund um koln bruges thor smash, geraardsbergen riis petacchi molteni pedaling squares. Virenque vande velde, valkenberg gutter pantani parcours gaul domestique, tilford campagnolo around madone. Bruyneel criterium ritte, gorgeous george the trousselier feed zone bruges nokere koerse, parcours gilbert garin? Anquetil valkenberg bettini cat among the pigeons.
 
-Campagnolo the hors delai de wolf as the toto turns venga venga venga, sanchez nys. Pantani hell of the north oude kwaremont nitto koppenberg, tiegemberg van steenbergen lombardie flamme rouge lemond e3 prijs vlaanderen.
 
-Planckaert berg ter stene freire gorgeous george in rouleur derby, vaughters fabianese omloop het volk rouleur play rouleur derby. Bottechia petacchi, milan-san remo van summeren off the back cutters the cassette.
-
-Nyvelocity pyrenees vande velde merckx. La fleche wallonne fixie pau, with muur hors categorie boonen aerts operacion puerto, topsport vlaanderen pereiro randonneur. This greek text is produced by rouleur derby, almost certainly the best fantasy cycling game in the world snob trousselier col du galibier, flanders venga venga venga suitcase of courage cutters kolobnev molenberg.
