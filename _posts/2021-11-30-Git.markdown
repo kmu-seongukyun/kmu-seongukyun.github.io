@@ -5,7 +5,7 @@ date:   2021-11-30
 ---
 
 ## Git 
-<img src="/assets/img/git.png", width = 600, height = 250><img>
+<img src="/assets/img/git.png"><img>
 <p>버전관리의 알파이자 오메가</p>
 
 Git은 버전 관리 시스템(VCS, Version Control System)중 하나이다.<br>
