@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Markdown"
+date:   2021-12-02
+---
+
+## Markdown
+<p>쉽고 멋지게 글쓰기</p>
+
+일반 텍스트로 서식이 있는 문서를 작성하는 방법
+<br>
+<br>
+
+### Markdown 문법
+#### 1. Header
+#, ##, ###, ... 으로 제목(header) 작성
+<br>
+
+#### 2. Italic
+*...*, _..._ 으로 기울임체(italic) 작성
+<br>
+
+#### 3. Bold
+**...**, __...__ 으로 강조체(bold) 작성
+<br>
+
+#### 4. Strikethrough
+~...~ 으로 취소선(strikethrough) 작성
+<br>
+
+#### 5. Unordered List
+..., * ... 으로 순서없는 리스트(unordered list)작성
+<br>
+
+#### 6. Ordered List
+1. ... 으로 순서 리스트(ordered list)작성
+<br>
+
+#### 7. Code
+`...` 으로 코드(code)작성
+<br>
+
+#### 8. Code Block
+```...``` 으로 코드 블록(code block) 작성
+<br>
+
+#### 더 많은 문법은?
+<a href = "https://www.markdownguide.org/basic-syntax#code" target="blank">Markdown Guide - Basic Syntax</a>에서 확인!
