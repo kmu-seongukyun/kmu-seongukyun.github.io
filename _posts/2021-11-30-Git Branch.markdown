@@ -6,6 +6,7 @@ date:   2021-11-30
 
 ## Git의 Branch
 <img src="/assets/img/git branch.png"><img>
+<br>
 Commit을 기준으로 구분된 파일을 분기로 나누어 새로운 commit을 만들 수 있는 가지, 가지들의 모임을 브랜치(Branch)라고 한다.
 <br>
 코드의 흐름을 분산시켜 더욱 효율적인 개발 가능!
