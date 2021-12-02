@@ -13,7 +13,7 @@ Commit을 기준으로 구분된 파일을 분기로 나누어 새로운 commit�
 <br>
 <br>
 
-### Branc 생성
+### Branch 생성
 #### git branch <branch 이름>을 통해 branch 생성
 {%- highlight ruby -%}
 user $ git branch <branch_name>
