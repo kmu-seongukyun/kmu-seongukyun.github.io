@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Jekyll"
+date:   2021-12-02
+---
+
+## Jekyll
+RUby 기반 정적 웹사이트 생성기
+
+## Ruby
+Dynamic Object-Oriented Scriping Language
+
+## Static Webpage (정적 웹사이트)
+<img src="/assets/img/static dynamic website.jpg">
+HTML등으로 작성된 문서를 그대로 전달해주는 것
+
+
+
