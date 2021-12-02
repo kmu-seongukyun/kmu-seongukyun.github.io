@@ -2,7 +2,7 @@
 layout: post
 title:  "Google Analytics"
 date:   2021-12-02
-description: Google Analytics란? / Google Analytics의 장단점 / Google Analytics 활용방안
+description: Google Analytics란? / Google Analytics의 장단점 / Google Analytics 활용방안 / Githubpage와 Google Analytics 연동 과정
 ---
 
 ## Google Analytics란?
@@ -31,3 +31,36 @@ description: Google Analytics란? / Google Analytics의 장단점 / Google Analy
 
 ## Google Analytics 활용 방안
 전문가 수준의 세팅이 아닌 기본 스크립트 설치만으로도 우리의 잠재고객에 관한 방대한 데이터를 수집할 수 있으며, 이러한 정보를 통해 의외의 인사이트를 얻을 수도 있습니다. 또한 제대로 세팅을 해 놓으면 언제라도 유용하게 사용할 수 있는 데이터가 차곡차곡 쌓이게 됩니다.
+
+## Githubpage와 Google Analytics 연동 과정
+### 1. Google Analytics 계정 생성
+<img src="/assets/img/GA1.png"><img>
+<br>
+
+### 2. Google Analytics 속성 설정
+<img src="/assets/img/GA2.png"><img>
+속성 이름, 보고 시간대, 통화 입력
+<br>
+측정 ID G- 가 아닌 추적 ID UA-를 사용하기 위해 고급 옵션 보기 클릭
+<img src="/assets/img/GA3.png"><img>
+<br>
+
+### 3. Google Analytics 비지니스 설정
+<img src="/assets/img/GA4.png"><img>
+업종 카테고리, 비지니스 규모, 사용 계획 선택 후 만들기 클릭
+<br>
+
+### 4. 추적 ID 확인
+<img src="/assets/img/GA5.png"><img>
+추적 ID (UA- 부분) 복사
+<br>
+
+### 5. _config.yml에 추적 ID 값 입력
+<img src="/assets/img/GA6.png"><img>
+google_analytics 부분에 복사해온 추적 ID값 붙여넣기
+<br>
+
+### 6. Githubpage와 Google Analytics 연동 확인
+<img src="/assets/img/GA7.png"><img>
+Githubpage에 접속했을 때 현재 활성 사용자가 1이 되는 것을 확인!
+<br>
