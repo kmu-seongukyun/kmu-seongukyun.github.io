@@ -34,33 +34,33 @@ description: Google Analytics란? / Google Analytics의 장단점 / Google Analy
 
 ## Githubpage와 Google Analytics 연동 과정
 ### 1. Google Analytics 계정 생성
-<img src="/assets/img/GA1.png"><img>
+<img src="/assets/img/GA1.PNG"><img>
 <br>
 
 ### 2. Google Analytics 속성 설정
-<img src="/assets/img/GA2.png"><img>
+<img src="/assets/img/GA2.PNG"><img>
 속성 이름, 보고 시간대, 통화 입력
 <br>
 측정 ID G- 가 아닌 추적 ID UA-를 사용하기 위해 고급 옵션 보기 클릭
-<img src="/assets/img/GA3.png"><img>
+<img src="/assets/img/GA3.PNG"><img>
 <br>
 
 ### 3. Google Analytics 비지니스 설정
-<img src="/assets/img/GA4.png"><img>
+<img src="/assets/img/GA4.PNG"><img>
 업종 카테고리, 비지니스 규모, 사용 계획 선택 후 만들기 클릭
 <br>
 
 ### 4. 추적 ID 확인
-<img src="/assets/img/GA5.png"><img>
+<img src="/assets/img/GA5.PNG"><img>
 추적 ID (UA- 부분) 복사
 <br>
 
 ### 5. _config.yml에 추적 ID 값 입력
-<img src="/assets/img/GA6.png"><img>
+<img src="/assets/img/GA6.PNG"><img>
 google_analytics 부분에 복사해온 추적 ID값 붙여넣기
 <br>
 
 ### 6. Githubpage와 Google Analytics 연동 확인
-<img src="/assets/img/GA7.png"><img>
+<img src="/assets/img/GA7.PNG"><img>
 Githubpage에 접속했을 때 현재 활성 사용자가 1이 되는 것을 확인!
 <br>
