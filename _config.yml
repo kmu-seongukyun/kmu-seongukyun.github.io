@@ -17,8 +17,6 @@ navigation:
   - title: Home
     url: /index.html
 
-  - title: Profile
-    url: /blog/Profile/
 
 social:
   github: kmu-seongukyun
