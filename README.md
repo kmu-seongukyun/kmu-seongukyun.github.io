@@ -7,8 +7,8 @@
 - 예시 문서 작성 후 원격 저장소 반영 시도
 - Personal Access Token(PAT) 생성 후 원격 저장소 반영 재시도
 - Jekyll 설치
-- Theme 적용(처음부터 다시 시작..)
-- 문서 내용 변경
+- Theme 적용 (처음부터 다시 시작..)
+- 파일 내용 변경
 - navigation bar 수정
 - 사이트 내 배경이미지 변경 및 favicon 추가
 - CSS 수정
@@ -34,7 +34,7 @@ kmu-seongukyun.github.io 주소로 접속해보니 이전에 입력했던 HTML �
 ### 5. Jekyll 설치  
 Window를 이용해 진행했기에, Jekyll을 설치하기 전에 https://rubyinstaller.org/downloads/ 다음과 같은 사이트 접속하여 Ruby와 Devkit을 설치했습니다.  
 이후 `gem install jekyll bundler` 명령어를 이용해 Jekyll을 설치했습니다.   
-(Jekyll이 정상적으로 설치되어 있는지 확인하기 위해 `jekyll -v` 명령어를 이용했습니다.)  
+( Jekyll이 정상적으로 설치되어 있는지 확인하기 위해 `jekyll -v` 명령어를 이용했습니다. )  
 이후 현재 디렉토리(Git Blog 디렉토리)에 `jekyll new . -- force` 명령어를 통해 Jekyll 설치를 완료했습니다.    
 `(bundle exec) jekyll serve`명령어로 Jekyll를 실행하여 기본 테마로 된 Jekyll 사이트가 생성됨을 확인할 수 있었습니다.   
 
@@ -44,8 +44,8 @@ http://jekyllthemes.org/, https://jekyllthemes.io/free
 다양한 테마를 찾아보며 나에게 맞는(?) 테마를 발견하여 테마를 적용하기 위한 방법을 알아보던 도중 ppt의 조금 더 쉽게... 부분을 발견하게 되었습니다.  
 결국 기존의 생성했던 repository를 삭제하고, 원하는 테마의 원격 저장소를 나의 원격 저장소로 fork받아 온 후 해당 저장소의 이름을 kmu-seongukyun.github.io로 변경하였습니다. 그리고 나서 git clone을 통해 해당 저장소를 받아왔습니다.  
 
-### 7. 문서 내용 변경 
-모든 파일을 하나하나 들어가보며 대부분의 블로그 속성을 관리하는 _config.yml부터 시작해서 index.html, _includes 폴더 내의 header.html 등 다양한 문서의 내용들을 제 블로그의 컨셉에 맞게 수정했습니다.
+### 7. 파일 내용 변경 
+모든 파일을 하나하나 들어가보며 대부분의 블로그 속성을 관리하는 _config.yml부터 시작해서 index.html, _includes 폴더 내의 header.html 등 다양한 파일의 내용들을 제 블로그의 컨셉에 맞게 수정했습니다.
 
 ### 8. navigation bar 수정
 Home과 Github 두개의 nav를 생성하여 Home을 누르게 되면 index.html에 연결되어 있어 홈페이지의 초기화면으로 돌아가도록 설정했으며, Github를 누르게 되면 새 창이 띄워지며 실제 제 Github가 띄워지도록 했습니다.
@@ -58,13 +58,12 @@ favicon 또한 원하는 이미지를 찾아 header.html 부분에 코드를 추
 글자색상, 글자를 마우스로 드래그했을때 나타내는 색상, footer부분의 로고 색상까지 제 블로그 컨셉에 맞게 수정했습니다.   
 
 ### 11. Post 작성
-_posts 폴더에 특강에서 다뤄줬던 내용을 주제로 post를 작성했습니다.YYYY-MM-DD-TITLE.md 형태로 새로운 문서를 생성하였으며 Markdown 형식으로 내용을 작성했습니다.
-(Post 초안 작성은 이때 이루어졌지만, Post에 변경할 사항이 생기면 이후의 Build 과정에서도 중간중간 수정하며 깃에 반영했습니다.)
+_posts 폴더에 특강에서 다뤄줬던 내용을 주제로 post를 작성했습니다.YYYY-MM-DD-TITLE.md 형태로 새로운 문서를 생성하였으며 Markdown 형식으로 내용을 작성했습니다.   
+( Post 초안 작성은 이때 이루어졌지만, Post에 변경할 사항이 생기면 이후의 Build 과정에서도 중간중간 수정하며 깃에 반영했습니다. )
 
 ### 12. Google Analytics 기능 추가
 수업시간에 다루어지지 않은 기능인 Google Analytics을 추가하기 위해 구글링을 이용했습니다.    
 Githubpage와 Google Analytics 연동하는 과정을 Post로 작성했습니다.  
-
 
 ### 13. 댓글 기능 추가(Disqus) 
 댓글 기능을 추가하기 위해 Disqus에 가입 및 세팅을 진행했습니다.   
