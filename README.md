@@ -7,7 +7,7 @@
 - 예시 문서 작성 후 원격 저장소 반영 시도
 - Personal Access Token(PAT) 생성 후 원격 저장소 반영 재시도
 - Jekyll 설치
-- Theme 적용 (처음부터 다시 시작..)
+- Theme 적용 ( 처음부터 다시 시작.. )
 - 파일 내용 변경
 - navigation bar 수정
 - 사이트 내 배경이미지 변경 및 favicon 추가
@@ -38,7 +38,7 @@ Window를 이용해 진행했기에, Jekyll을 설치하기 전에 https://rubyi
 이후 현재 디렉토리(Git Blog 디렉토리)에 `jekyll new . -- force` 명령어를 통해 Jekyll 설치를 완료했습니다.    
 `(bundle exec) jekyll serve`명령어로 Jekyll를 실행하여 기본 테마로 된 Jekyll 사이트가 생성됨을 확인할 수 있었습니다.   
 
-### 6. Theme 적용(처음부터 다시 시작..) 
+### 6. Theme 적용 ( 처음부터 다시 시작.. ) 
 기본테마가 너무 밋밋했기에 새로운 태마를 아래의 두가지 사이트를 이용해 찾아보았습니다.    
 http://jekyllthemes.org/, https://jekyllthemes.io/free    
 다양한 테마를 찾아보며 나에게 맞는(?) 테마를 발견하여 테마를 적용하기 위한 방법을 알아보던 도중 ppt의 조금 더 쉽게... 부분을 발견하게 되었습니다.  
