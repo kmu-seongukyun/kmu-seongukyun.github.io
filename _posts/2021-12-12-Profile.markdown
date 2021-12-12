@@ -8,7 +8,6 @@ description: profile
 ## Profile 
 
 <p>국민대학교 소프트웨어학부</p> 
-<br>
 <p>20213029 윤성욱</p>
 
 
