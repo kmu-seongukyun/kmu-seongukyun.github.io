@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Long Haul
+title: SNOOPY
 ---
 
 <div class="post">
