@@ -17,6 +17,9 @@ navigation:
   - title: Home
     url: /index.html
 
+  - title: Profile
+    url: /2021-12-12-Profile.markdown
+
 social:
   github: kmu-seongukyun
   email: seonugk3553@kookmin.ac.kr
