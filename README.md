@@ -12,9 +12,8 @@
 - 사이트 내 배경이미지 변경 및 favicon 추가
 - CSS 수정
 - Post 작성
+- Google Analytics 기능 추가
 - 댓글 기능 추가(Disqus)
-- Comments powered by Disqus
-- [Dark Mode support](https://github.com/brianmaierjr/long-haul/blob/master/preview-dark.png) via [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) 
 
 ### 1. Repository 생성  
 Git 설치 이후, Github 계정에 kmu-seongukyun.github.io 이름의 Repository를 생성했습니다.  
@@ -58,7 +57,17 @@ favicon 또한 원하는 이미지를 찾아 header.html 부분에 코드를 추
 _posts 폴더에 특강에서 다뤄줬던 내용을 주제로 post를 작성했습니다.YYYY-MM-DD-TITLE.md 형태로 새로운 문서를 생성하였으며 Markdown 형식으로 내용을 작성했습니다.
 (Post 초안 작성은 이때 이루어졌지만, Post에 변경할 사항이 생기면 이후의 Build 과정에서도 중간중간 수정하며 깃에 반영했습니다.)
 
-### 11. 댓글 기능 추가(Disqus) 
-댓글
+### 11. Google Analytics 기능 추가
+수업시간에 다루어지지 않은 기능인 Google Analytics을 추가하기 위해 구글링을 이용했습니다.    
+Githubpage와 Google Analytics 연동하는 과정을 Post로 작성했습니다.  
 
+
+### 12. 댓글 기능 추가(Disqus) 
+댓글 기능을 추가하기 위해 Disqus에 가입 및 세팅을 진행했습니다.   
+이후 _config.yml에 key-vale를 추가했으며, disqus 홈페이지에서 Universal Code를 복사한 후, _layouts/post.html에 복사한 코드를 붙여넣고 강의자료를 참고해 일부 코드를 추가했습니다.  
+실제 post의 댓글 기능을 추가하기 위해 각 post마다 comments: True 설정을 추가했습니다.  
+
+#### 참고
+위에서 설명한 대부분의 Git Blog Build 과정은 VS Code를 이용해 진행했으며,   
+VS code 내의 터미널에서 git add, git commit, git push 명령어를 이용해 변화과정을 Github에 지속적으로 연동시켰습니다.
 
