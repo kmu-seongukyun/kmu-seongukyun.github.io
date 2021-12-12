@@ -46,9 +46,5 @@ description: Markdown / Markdown 문법
 ` `...` ` 으로 코드(code)작성
 <br>
 
-#### 8. Code Block
-```  ```...```  ```으로 코드 블록(code block) 작성
-<br>
-
 #### 더 많은 문법은?
 <a href = "https://www.markdownguide.org/basic-syntax#code" target="blank">Markdown Guide - Basic Syntax</a>에서 확인!
