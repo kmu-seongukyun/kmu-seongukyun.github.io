@@ -18,7 +18,7 @@ navigation:
     url: /index.html
 
   - title: Profile
-    url: /_posts/2021-12-12-Profile.markdown
+    url: _posts/2021-12-12-Profile.markdown
 
 social:
   github: kmu-seongukyun
