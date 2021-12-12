@@ -3,6 +3,7 @@ layout: post
 title:  "Git Branch"
 date:   2021-11-30
 description: Git의 Branch / Branch 생성 / Branch 전환 / Branch 병합 / Branch 삭제
+comments: true
 ---
 
 ## Git의 Branch

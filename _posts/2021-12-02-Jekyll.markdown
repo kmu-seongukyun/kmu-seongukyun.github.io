@@ -3,6 +3,7 @@ layout: post
 title:  "Jekyll"
 date:   2021-12-02
 description: Jekyll / Ruby
+comments: true
 ---
 
 ## Jekyll

@@ -3,6 +3,7 @@ layout: post
 title:  "Google Analytics"
 date:   2021-12-02
 description: Google Analytics란? / Google Analytics의 장단점 / Google Analytics 활용방안 / Githubpage와 Google Analytics 연동 과정
+comments: true
 ---
 
 ## Google Analytics란?

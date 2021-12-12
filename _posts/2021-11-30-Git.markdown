@@ -3,6 +3,7 @@ layout: post
 title:  "Git"
 date:   2021-11-30
 description: Git / Git 로컬 저장소 생성 / Git 저장소에서 파일의 상태 / Git의 저장단위 / Commit
+comments: true
 ---
 
 ## Git 
