@@ -2,10 +2,10 @@
 layout: post
 title:  "Git"
 date:   2021-11-30
+description: Git, Git 로컬 저장소 생성, Git 저장소에서 파일의 상태, Git의 저장단위, Commit
 ---
 
 ## Git 
-<img src="/assets/img/git.png"><img>
 <p>버전관리의 알파이자 오메가</p>
 
 Git은 버전 관리 시스템(VCS, Version Control System)중 하나이다.<br>
