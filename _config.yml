@@ -24,5 +24,7 @@ social:
 
 google_analytics: "UA-214166996-1"
 
-disqus:
-    shortname: brianmaierjr
+comment:
+  provider: "disqus"
+  disqus:
+    shortname: "yun-snoopy"
