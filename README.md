@@ -1,4 +1,4 @@
-# Github Repo를 Webpage로!  
+## Github Repo를 Webpage로!  
 
 ## Git Blog Build 과정  
 
@@ -9,6 +9,7 @@
 - Jekyll 설치
 - Theme 적용(처음부터 다시 시작..)
 - 문서 내용 변경
+- navigation bar 수정
 - 사이트 내 배경이미지 변경 및 favicon 추가
 - CSS 수정
 - Post 작성
@@ -46,23 +47,26 @@ http://jekyllthemes.org/, https://jekyllthemes.io/free
 ### 7. 문서 내용 변경 
 모든 파일을 하나하나 들어가보며 대부분의 블로그 속성을 관리하는 _config.yml부터 시작해서 index.html, _includes 폴더 내의 header.html 등 다양한 문서의 내용들을 제 블로그의 컨셉에 맞게 수정했습니다.
 
-### 8. 사이트 내 배경이미지 변경 및 favicon 추가
+### 8. navigation bar 수정
+Home과 Github 두개의 nav를 생성하여 Home을 누르게 되면 index.html에 연결되어 있어 홈페이지의 초기화면으로 돌아가도록 설정했으며, Github를 누르게 되면 새 창이 띄워지며 실제 제 Github가 띄워지도록 했습니다.
+
+### 9. 사이트 내 배경이미지 변경 및 favicon 추가
 제 블로그의 컨셉에 맞게 수정하기 위해 assets/img 폴더 내애 기존에 있었던 이미지들을 삭제하고 새롭게 다운로드한 이미지로 대체하여 사이트의 배경사진을 변경했습니다.    
 favicon 또한 원하는 이미지를 찾아 header.html 부분에 코드를 추가해주었습니다.
 
-### 9. CSS 수정
+### 10. CSS 수정
 글자색상, 글자를 마우스로 드래그했을때 나타내는 색상, footer부분의 로고 색상까지 제 블로그 컨셉에 맞게 수정했습니다.   
 
-### 10. Post 작성
+### 11. Post 작성
 _posts 폴더에 특강에서 다뤄줬던 내용을 주제로 post를 작성했습니다.YYYY-MM-DD-TITLE.md 형태로 새로운 문서를 생성하였으며 Markdown 형식으로 내용을 작성했습니다.
 (Post 초안 작성은 이때 이루어졌지만, Post에 변경할 사항이 생기면 이후의 Build 과정에서도 중간중간 수정하며 깃에 반영했습니다.)
 
-### 11. Google Analytics 기능 추가
+### 12. Google Analytics 기능 추가
 수업시간에 다루어지지 않은 기능인 Google Analytics을 추가하기 위해 구글링을 이용했습니다.    
 Githubpage와 Google Analytics 연동하는 과정을 Post로 작성했습니다.  
 
 
-### 12. 댓글 기능 추가(Disqus) 
+### 13. 댓글 기능 추가(Disqus) 
 댓글 기능을 추가하기 위해 Disqus에 가입 및 세팅을 진행했습니다.   
 이후 _config.yml에 key-vale를 추가했으며, disqus 홈페이지에서 Universal Code를 복사한 후, _layouts/post.html에 복사한 코드를 붙여넣고 강의자료를 참고해 일부 코드를 추가했습니다.  
 실제 post의 댓글 기능을 추가하기 위해 각 post마다 comments: True 설정을 추가했습니다.  
